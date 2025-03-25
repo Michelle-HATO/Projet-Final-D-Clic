@@ -216,7 +216,7 @@ progress{
 /* SECTION PROJETS */
 .projets{
     position: relative;
-    background-color: whitesmoke;
+    background-color: rgb(225, 231, 236);;
     padding: 20px;
     height: 75vh;
     margin-top: 60px;
