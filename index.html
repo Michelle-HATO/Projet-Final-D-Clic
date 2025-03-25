@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <header>
+        <div id="présentation">
+            <h1 >HATO <span> Michelle</span> </h1>
+        </div>
+
+        
+       <div class="navbar" id="navbar"> 
+                <div> <a href= "#accueil" > Accueil</a>  </div>
+
+                <div> <a href="#aPropos"> À propos</a> </div>
+
+                <div> <a href="#compétences">Compétences</a> </div>
+
+                <div> <a href="#projets"> Projets</a> </div>
+
+                <div> <a href="#contact">Contact</a> </div> 
+    
+       </div>
+
+
+    
+       
+    </header>
+    
+    
+    
+            
+    <div class="accueil" id="accueil">
+        
+        <div>
+            <p>Bienvenue sur mon portfolio ! Vous trouverez ici mes compétences, mes projets et mes centres d'intérêt.</p>
+            
+            <br><button type=" link" > <a href="#projets"></a>Voir mes projets</button>
+        </div>
+            
+        
+        <div class="image">
+            <img src="assets/7122676.jpg" alt=" photo de moi" srcset="">
+        </div>
+        
+        
+    </div>
+    
+
+
+    <section class="aPropos" id="aPropos">
+
+        <h2 class="titre">À propos</h2> 
+        
+        <div class="d1">
+
+            <p>
+            
+             Actuellement étudiante en fin parcours de la Licence Professionnelle en Gestion de l'Eau et de l'Environnement à de l'Université
+              de Lomé, <br>je suis passionnée par les enjeux environnementaux et les nouvelles technologies. 
+
+              <br> <button type=" link" > <a href="assets/CV_HATO.pdf" download=" CV_HATO"></a>Télécharger mon CV</button>
+           
+            </p>
+
+        </div>
+
+        <div class="imageB">
+            <img src="assets/IMG_20240804_122338.jpg" alt=" photo de Michelle" srcset="">
+        </div>
+
+    </section>
+
+
+   <div class="compétences" id="compétences">
+
+      <h2 class="titre">Compétences</h2> 
+        
+        
+        <div class="techniques">
+            
+              <h3>Compétences techniques </h3>
+
+                <p>
+                    <span class="skill">HTML</span>
+                    <progress class="progress"  max="100" value="95">95%</progress>
+                </p>
+        
+                <p>
+                  <span class="skill">CSS</span>
+                    <progress class="progress"  max="100" value="70">70%</progress>
+                </p>
+        
+                <p>
+                    <span class="skill">JAVASCRIPT</span>
+                    <progress class="progress"  max="100" value="50">50%</progress>
+                </p>
+        
+                
+                <p>
+                   <span class="skill">VS Code</span>
+                    <progress  max="100" value="90">90%</progress>
+                </p>
+        
+                
+            
+            
+        </div>
+
+        <div class="soft">
+
+            <h3 >Compétences soft </h3>
+
+            <p>
+                <span class="skill">Gestion de projets</span>
+                <progress class="progress" max="100" value="75">75%</progress>
+            </p>
+
+
+
+            <p>
+                <span class="skill">Résolution problème</span>
+                <progress  class="progress" max="100" value="70">70%</progress>
+            </p>
+
+            <p>
+                <span class="skill">Adaptabilité</span>
+                <progress id="file" max="100" value="70">70%</progress>
+            </p>
+          
+           
+        </div>
+   </div>
+    
+    <div class="projets" id="projets">
+
+       
+        <h2 class="titre" >Projets</h2>
+
+        <div>
+            <h3> HORLOGE</h3>
+            <p>qui affiche l'heure, la minute et la seconde</p>
+            <span class="tags">#HTML #CSS #JS</span>
+            <br><button type="voir">Voir</button>
+        </div>
+
+        <div>
+            <h3>Système de calcul de prêt hypothéquaire</h3>
+            <p>qui calule les mensualités d'un prêt hypothécaire</p>
+            <span class="tags">#HTML #CSS #JS</span>
+            <br><button type="voir">Voir</button>
+        </div>
+        
+
+    </div>
+    
+    
+<div class="contact" id="contact">
+
+   <div class="mot">
+    <h2>Vous avez un <span class="accent">projet en tête</span> ?</h2>
+    <p>N'hésitez pas à me <span class="accent">contacter</span></p>
+
+   </div>
+   
+        <form>
+
+            <div class="nomPrenoms">
+                <label for="lastname"> Nom</label>
+                <input type="text" id="name" name="name"  placeholder="Votre nom"  required>
+
+                 <label for="firstname">Prénom</label>
+                <input type="text" id="prénom" name="prénom"  placeholder="Votre prénom"required>
+            </div>
+
+            <div>
+                <label for="email">Email </label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+            </div>
+
+            <div>
+                <label for="subject">Le sujet de votre message </label>
+                <input type="text" id="subject" name="subject" placeholder="Conception d'une page web " required>
+
+            </div>
+            
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message"  placeholder=" Je voudrais un site web dynamique pour mon entreprise. " required></textarea>
+                
+            </div>
+           
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+
+        </form>
+</div>
+    
+    <footer>
+        <p>Designed by <span class="accent">Michelle HATO</span> with HTML CSS JS</p>
+        <p>Tous droits réservés - 2025</p>
+    </footer>
+
+     <script src="app.js"></script>
+</body>
+</html>
