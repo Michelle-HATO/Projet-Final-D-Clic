@@ -9,11 +9,12 @@
 
 .titre {
     
-    position: relative;
+    position: absolute;
+    display: inline-block;
+    align-items: center; 
     text-align: center;
     margin: 0 auto ;
-    padding: 20px 0;
-    width: 100%;
+    width: 100%;             
     font-size: 30px;
     color: #0073e6;
 }
@@ -102,8 +103,9 @@ span{
 .accueil {
     background-color: white;
     margin-top: 100px;
-    padding: 20px;
     height: 100vh;
+    padding: 100px 20px 20px; 
+    box-sizing: border-box;
     
     display: flex;
     align-items: center;
@@ -142,12 +144,11 @@ span{
 .aPropos{
     position: relative;
     background-color:rgb(225, 231, 236);
-    padding: 20px;
+    padding: 100px 20px 20px; 
+    box-sizing: border-box;
     height: 75vh;
     margin-top: 100px;
-  
 }
-
 
 #aPropos {
     display: flex;
@@ -156,6 +157,13 @@ span{
     min-height:300px ;
     font-size: 20px;
 }
+
+#aPropos div{
+    height: 400px;
+    width: 1000px;
+ border-radius: 60px;
+ margin: 50px;
+} 
 
 #aPropos.image.d1{
     height: 400px;
@@ -182,7 +190,8 @@ span{
     background-color: white;
     height: 75vh;
     margin-top: 100px;
-    padding: 50px;
+    padding: 100px 20px 20px; 
+    box-sizing: border-box;
     
 }
 
@@ -217,7 +226,8 @@ progress{
 .projets{
     position: relative;
     background-color: rgb(225, 231, 236);;
-    padding: 20px;
+    padding: 100px 20px 20px; 
+    box-sizing: border-box;
     height: 75vh;
     margin-top: 60px;
 }
@@ -260,7 +270,8 @@ progress{
     color: white;
     height: 100vh;
     margin-top: 60px;
-    padding: 50px;
+    padding: 100px 20px 20px; 
+    box-sizing: border-box;
     font-size: 20px;
 }
 
