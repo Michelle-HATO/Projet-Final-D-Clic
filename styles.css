@@ -154,6 +154,7 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: normal;
+    column-gap: 200px;
     min-height:300px ;
     font-size: 20px;
 }
@@ -162,14 +163,14 @@ span{
     height: 400px;
     width: 1000px;
  border-radius: 60px;
- margin: 50px;
+ margin: 75px;
 } 
 
 #aPropos.image.d1{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
  border-radius: 30px;
- margin: 100px;
+ margin: 50px;
 } 
 
 .imageB img{
